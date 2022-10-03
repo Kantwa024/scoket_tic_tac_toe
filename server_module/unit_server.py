@@ -14,7 +14,7 @@ class UnitServer:
         self.__current_connections = 0
         self.__delete_timeout = 1
         self.__data = {}
-        self.__data_lnth = 1024
+        self.__data_lnth = 16384
         self.__port = None
         self.__max_connections = 10
         self.__setPort(port)

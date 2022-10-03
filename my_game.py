@@ -5,7 +5,7 @@ import time
 import server_module.unit_client as unitClient
 import threading
 
-unit_client = unitClient.UnitClient(1, "127.0.0.1")
+unit_client = unitClient.UnitClient(2, "127.0.0.1")
 unit_client.connectToServer()
 
 

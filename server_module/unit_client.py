@@ -9,7 +9,7 @@ class UnitClient:
     def __init__(self, port = None, ip_address = None) -> None:
         self.__socket = None
         self.__port = None
-        self.__data_lnth = 1024
+        self.__data_lnth = 16384
         self.__ip_address = None
         self.__data = {}
         self.__setPort(port)
